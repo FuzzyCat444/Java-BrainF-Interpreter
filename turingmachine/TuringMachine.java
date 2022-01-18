@@ -191,7 +191,7 @@ public class TuringMachine {
     }
     
     public boolean done() {
-        return nextInstructionPtr >= program.length();
+        return nextInstructionPtr > program.length();
     }
 
     public int getInstructionPtr() {
